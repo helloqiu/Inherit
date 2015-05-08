@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1431070432 source:/home/helloqiu/c_class/5-8/JiCheng/main.cpp
+	<iostream>
+	"Rectangle.h"
+	"Cricle.h"
+	"Canvas.h"
+
+1431071004 /home/helloqiu/c_class/5-8/JiCheng/include/Rectangle.h
+	"Shape.h"
+
+1431070918 /home/helloqiu/c_class/5-8/JiCheng/include/Shape.h
+	<string>
+
+1431070918 /home/helloqiu/c_class/5-8/JiCheng/include/Cricle.h
+	"Shape.h"
+
+1431070617 /home/helloqiu/c_class/5-8/JiCheng/include/Canvas.h
+	"Shape.h"
+	<vector>
+	<iostream>
+
+1431070699 source:/home/helloqiu/c_class/5-8/JiCheng/src/Canvas.cpp
+	"Canvas.h"
+
+1431070848 source:/home/helloqiu/c_class/5-8/JiCheng/src/Cricle.cpp
+	"Cricle.h"
+
+1431071004 source:/home/helloqiu/c_class/5-8/JiCheng/src/Rectangle.cpp
+	"Rectangle.h"
+
+1431070817 source:/home/helloqiu/c_class/5-8/JiCheng/src/Shape.cpp
+	"Shape.h"
+
