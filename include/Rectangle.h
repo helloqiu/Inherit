@@ -6,6 +6,7 @@ class Rectangle:public Shape
 {
     public:
         Rectangle(int x , int y , int length , int width);
+        void draw();
     protected:
     private:
         int x ;

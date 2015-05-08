@@ -11,6 +11,6 @@ Canvas::Canvas()
  }
  void Canvas::draw(){
     for (int i = 0 ; i < num ; i ++){
-        cout << v.at(i) -> getName() << " is draw" << endl;
+        v.at(i) -> draw();
     }
  }

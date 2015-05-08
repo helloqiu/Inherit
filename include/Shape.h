@@ -1,6 +1,7 @@
 #ifndef SHAPE_H
 #define SHAPE_H
 #include<string>
+#include<iostream>
 using namespace std;
 
 class Shape
@@ -9,6 +10,7 @@ class Shape
         Shape();
         string getName();
         void setName(string name);
+        virtual void draw(){};
     protected:
     private:
         string name;

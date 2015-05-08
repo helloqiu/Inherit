@@ -9,3 +9,7 @@ Rectangle::Rectangle(int x , int y , int length , int width)
     this -> length = length;
     this -> width = width;
 }
+void Rectangle::draw(){
+    cout << this -> getName() << endl;
+    cout << "position : (" << x << "," << y << ") length : " << length << " width : " << width;
+}

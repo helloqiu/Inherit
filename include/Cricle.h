@@ -6,6 +6,7 @@ class Cricle:public Shape
 {
     public:
         Cricle(int x , int y , int radius);
+        void draw();
     protected:
     private:
         int radius;
